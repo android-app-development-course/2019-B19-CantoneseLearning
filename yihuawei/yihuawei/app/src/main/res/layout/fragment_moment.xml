@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.yihuawei.moment.MomentFragment"
+    android:background="#b2fcff">
+        <ListView
+            android:id="@+id/lv_moment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:id="@+id/add"
+            app:elevation="6dp"
+            android:clickable="true"
+            app:borderWidth="0dp"
+            android:backgroundTint="@color/fabbg"
+            app:rippleColor="#0097a7"
+            android:layout_marginBottom="55dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/add"
+            app:pressedTranslationZ="12dp"
+            android:layout_height="wrap_content" />
+
+</FrameLayout>
